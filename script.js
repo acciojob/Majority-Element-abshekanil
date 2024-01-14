@@ -1,6 +1,6 @@
 //your code here
-let arr = [2,1,2];
-arr.sort(function(a,b){
+function majorityElementChecker(arr){
+	arr.sort(function(a,b){
 	return a - b;
 });
 let count = 1;
@@ -24,5 +24,6 @@ for(let i=0; i<arr.length-1; i++)
 	}
 if(countSave > Math.floor(arr.length/2))
 {
-	console.log(countSave);
+	return countSave;
+}
 }
