@@ -22,7 +22,7 @@ for(let i=0; i<arr.length-1; i++)
 			
 		}
 	}
-if(countSave > Math.floor(n/2))
+if(countSave > Math.floor(arr.length/2))
 {
-	return countSave;
+	console.log(countSave);
 }
